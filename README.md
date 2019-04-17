@@ -10,6 +10,8 @@ https://github.com/torvalds/linux        	      					源码树
 
 https://github.com/MintCN/linux-insides-zh 					Linux内核揭秘
 
+https://wiki.archlinux.org/index.php/GRUB					Archwiki写的逆天的好
+
 https://blog.csdn.net/qq_28629687/article/details/82887477 	自己的博客对UEFI的一些总结
 
 https://blog.csdn.net/qq_28629687/article/details/82894307     图解UEFI部分画了两个小时
