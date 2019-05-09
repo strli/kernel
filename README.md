@@ -26,6 +26,8 @@
 
 操作见：https://github.com/strli/efi
 
+
+
 3、grub2目录
 
 在主板固件中Bios初始化以后（这里指的是efi），将会由系统引导器来
@@ -38,13 +40,33 @@ gnu项目，目前三大主流系统中，windos使用winNT引导，linux主要�
 
 
 
-4、vmlinuzefi与initrdefi
+4、linuzefi与initrdefi
 
-grub2执行完成后，将会向系统内核传递参数，并将控制权交给内核，其中
+grub2执行完成后，将会向系统内核传递参数，并将控制权交给内核。
 
-vmlinuz用来初始化操作系统，initrd用来初始化内存盘（开辟内存空间，把
+vmlinux：（https://en.wikipedia.org/wiki/Vmlinux#bzImage）
 
-操作系统载入进去）
+​	linux系统的内核，编译内核源码之后生成的文件。
+
+initrd：（https://en.wikipedia.org/wiki/Initrd）
+
+​	是一个临时的根文件系统，它在初始化期间被 Linux 内核使用，而那时其他
+
+的文件系统尚未被挂载。
+
+制作vmlinux：
+
+依赖：make（待补充）
+
+制作initrd：
+
+依赖：busybox（https://en.wikipedia.org/wiki/GNU_Core_Utilities）
+
+
+
+到这里，内核已经可以运行了，ef->grub->vmlinux
+
+测试环境：qemu虚拟机 （https://en.wikipedia.org/wiki/QEMU）
 
 
 
@@ -63,6 +85,16 @@ linux内核初始化完成以后，所有的硬件都已经就绪，程序需要
 核架构，所以也有人反对使用。
 
 
+
+6、drivers
+
+
+
+7、modules
+
+
+
+8、xserver
 
 在操作系统原理中，会把操作系统功能分为五大部分，分别为：进程管理，内存管理
 
