@@ -1,0 +1,360 @@
+[0;4mUNIT FILE                                  STATE          [0m
+[0;4mproc-sys-fs-binfmt_misc.automount          static         [0m
+-.mount                                    generated      
+boot-efi.mount                             generated      
+dev-hugepages.mount                        static         
+dev-mqueue.mount                           static         
+proc-sys-fs-binfmt_misc.mount              static         
+snap-core-7270.mount                       [0;1;32menabled        [0m
+snap-core-7396.mount                       [0;1;32menabled        [0m
+snap-core18-1066.mount                     [0;1;32menabled        [0m
+snap-core18-1074.mount                     [0;1;32menabled        [0m
+snap-gnome\x2d3\x2d28\x2d1804-67.mount     [0;1;32menabled        [0m
+snap-gnome\x2d3\x2d28\x2d1804-71.mount     [0;1;32menabled        [0m
+snap-gnome\x2dcalculator-406.mount         [0;1;32menabled        [0m
+snap-gnome\x2dcharacters-296.mount         [0;1;32menabled        [0m
+snap-gnome\x2dlogs-61.mount                [0;1;32menabled        [0m
+snap-gnome\x2dsystem\x2dmonitor-100.mount  [0;1;32menabled        [0m
+snap-gtk\x2dcommon\x2dthemes-1313.mount    [0;1;32menabled        [0m
+sys-fs-fuse-connections.mount              static         
+sys-kernel-config.mount                    static         
+[0;4msys-kernel-debug.mount                     static         [0m
+acpid.path                                 [0;1;32menabled        [0m
+apport-autoreport.path                     [0;1;32menabled        [0m
+cups.path                                  [0;1;32menabled        [0m
+systemd-ask-password-console.path          static         
+systemd-ask-password-plymouth.path         static         
+[0;4msystemd-ask-password-wall.path             static         [0m
+session-2.scope                            transient      
+[0;4msession-c1.scope                           transient      [0m
+accounts-daemon.service                    [0;1;32menabled        [0m
+acpid.service                              [0;1;31mdisabled       [0m
+alsa-restore.service                       static         
+alsa-state.service                         static         
+alsa-utils.service                         [0;1;31mmasked         [0m
+anacron.service                            [0;1;32menabled        [0m
+apparmor.service                           [0;1;32menabled        [0m
+apport-autoreport.service                  static         
+apport-forward@.service                    static         
+apport.service                             generated      
+apt-daily-upgrade.service                  static         
+apt-daily.service                          static         
+autovt@.service                            [0;1;32menabled        [0m
+avahi-daemon.service                       [0;1;32menabled        [0m
+binfmt-support.service                     [0;1;32menabled        [0m
+bluetooth.service                          [0;1;32menabled        [0m
+bolt.service                               static         
+bootlogd.service                           [0;1;31mmasked         [0m
+bootlogs.service                           [0;1;31mmasked         [0m
+bootmisc.service                           [0;1;31mmasked         [0m
+brltty-udev.service                        static         
+brltty.service                             [0;1;31mdisabled       [0m
+checkfs.service                            [0;1;31mmasked         [0m
+checkroot-bootclean.service                [0;1;31mmasked         [0m
+checkroot.service                          [0;1;31mmasked         [0m
+clean-mount-point@.service                 static         
+colord.service                             static         
+configure-printer@.service                 static         
+console-getty.service                      [0;1;31mdisabled       [0m
+console-setup.service                      [0;1;32menabled        [0m
+container-getty@.service                   static         
+containerd.service                         [0;1;32menabled        [0m
+cron.service                               [0;1;32menabled        [0m
+cryptdisks-early.service                   [0;1;31mmasked         [0m
+cryptdisks.service                         [0;1;31mmasked         [0m
+cups-browsed.service                       [0;1;32menabled        [0m
+cups.service                               [0;1;32menabled        [0m
+dbus-fi.w1.wpa_supplicant1.service         [0;1;32menabled        [0m
+dbus-org.bluez.service                     [0;1;32menabled        [0m
+dbus-org.freedesktop.Avahi.service         [0;1;32menabled        [0m
+dbus-org.freedesktop.hostname1.service     static         
+dbus-org.freedesktop.locale1.service       static         
+dbus-org.freedesktop.login1.service        static         
+dbus-org.freedesktop.ModemManager1.service [0;1;32menabled        [0m
+dbus-org.freedesktop.nm-dispatcher.service [0;1;32menabled        [0m
+dbus-org.freedesktop.resolve1.service      [0;1;32menabled        [0m
+dbus-org.freedesktop.thermald.service      [0;1;31mmasked         [0m
+dbus-org.freedesktop.timedate1.service     static         
+dbus.service                               static         
+debug-shell.service                        [0;1;31mdisabled       [0m
+display-manager.service                    static         
+dns-clean.service                          [0;1;32menabled        [0m
+docker.service                             [0;1;32menabled        [0m
+emergency.service                          static         
+friendly-recovery.service                  static         
+fstrim.service                             static         
+fuse.service                               [0;1;31mmasked         [0m
+fwupd-offline-update.service               static         
+fwupd.service                              static         
+fwupdate-cleanup.service                   static         
+gdm.service                                static         
+gdm3.service                               static         
+geoclue.service                            static         
+getty-static.service                       static         
+getty@.service                             [0;1;32menabled        [0m
+gpu-manager.service                        [0;1;32menabled        [0m
+grub-common.service                        generated      
+halt.service                               [0;1;31mmasked         [0m
+hostname.service                           [0;1;31mmasked         [0m
+hwclock.service                            [0;1;31mmasked         [0m
+ifup@.service                              static         
+iio-sensor-proxy.service                   static         
+initrd-cleanup.service                     static         
+initrd-parse-etc.service                   static         
+initrd-switch-root.service                 static         
+initrd-udevadm-cleanup-db.service          static         
+irqbalance.service                         [0;1;32menabled        [0m
+kerneloops.service                         [0;1;32menabled        [0m
+keyboard-setup.service                     [0;1;32menabled        [0m
+killprocs.service                          [0;1;31mmasked         [0m
+kmod-static-nodes.service                  static         
+kmod.service                               static         
+lm-sensors.service                         [0;1;32menabled        [0m
+ModemManager.service                       [0;1;32menabled        [0m
+module-init-tools.service                  static         
+motd-news.service                          static         
+motd.service                               [0;1;31mmasked         [0m
+mountall-bootclean.service                 [0;1;31mmasked         [0m
+mountall.service                           [0;1;31mmasked         [0m
+mountdevsubfs.service                      [0;1;31mmasked         [0m
+mountkernfs.service                        [0;1;31mmasked         [0m
+mountnfs-bootclean.service                 [0;1;31mmasked         [0m
+mountnfs.service                           [0;1;31mmasked         [0m
+netplan-wpa@.service                       static         
+network-manager.service                    [0;1;32menabled        [0m
+networkd-dispatcher.service                [0;1;32menabled        [0m
+networking.service                         [0;1;32menabled        [0m
+NetworkManager-dispatcher.service          [0;1;32menabled        [0m
+NetworkManager-wait-online.service         [0;1;32menabled        [0m
+NetworkManager.service                     [0;1;32menabled        [0m
+nvidia-persistenced.service                static         
+ondemand.service                           [0;1;32menabled        [0m
+packagekit-offline-update.service          static         
+packagekit.service                         static         
+plymouth-halt.service                      static         
+plymouth-kexec.service                     static         
+plymouth-log.service                       static         
+plymouth-poweroff.service                  static         
+plymouth-quit-wait.service                 static         
+plymouth-quit.service                      static         
+plymouth-read-write.service                static         
+plymouth-reboot.service                    static         
+plymouth-start.service                     static         
+plymouth-switch-root.service               static         
+plymouth.service                           static         
+polkit.service                             static         
+pppd-dns.service                           [0;1;32menabled        [0m
+procps.service                             static         
+qemu-kvm.service                           [0;1;32menabled        [0m
+quotaon.service                            static         
+rc-local.service                           static         
+rc.local.service                           static         
+rc.service                                 [0;1;31mmasked         [0m
+rcS.service                                [0;1;31mmasked         [0m
+reboot.service                             [0;1;31mmasked         [0m
+rescue.service                             static         
+rmnologin.service                          [0;1;31mmasked         [0m
+rsync.service                              [0;1;32menabled        [0m
+rsyslog.service                            [0;1;32menabled        [0m
+rtkit-daemon.service                       [0;1;31mdisabled       [0m
+saned.service                              [0;1;31mmasked         [0m
+saned@.service                             indirect       
+sendsigs.service                           [0;1;31mmasked         [0m
+serial-getty@.service                      [0;1;31mdisabled       [0m
+setvtrgb.service                           [0;1;32menabled        [0m
+shadowsocks-libev-local@.service           [0;1;31mdisabled       [0m
+shadowsocks-libev-redir@.service           [0;1;31mdisabled       [0m
+shadowsocks-libev-server@.service          [0;1;31mdisabled       [0m
+shadowsocks-libev-tunnel@.service          [0;1;31mdisabled       [0m
+shadowsocks-libev.service                  [0;1;32menabled        [0m
+shadowsocks.service                        generated      
+single.service                             [0;1;31mmasked         [0m
+snapd.autoimport.service                   [0;1;32menabled        [0m
+snapd.core-fixup.service                   [0;1;32menabled        [0m
+snapd.failure.service                      static         
+snapd.seeded.service                       [0;1;32menabled        [0m
+snapd.service                              [0;1;32menabled        [0m
+snapd.snap-repair.service                  static         
+snapd.system-shutdown.service              [0;1;32menabled        [0m
+speech-dispatcher.service                  generated      
+spice-vdagent.service                      [0;1;32menabled        [0m
+spice-vdagentd.service                     [0;1;32menabled        [0m
+ssh.service                                [0;1;32menabled        [0m
+ssh@.service                               static         
+sshd.service                               [0;1;32menabled        [0m
+stop-bootlogd-single.service               [0;1;31mmasked         [0m
+stop-bootlogd.service                      [0;1;31mmasked         [0m
+sudo.service                               [0;1;31mmasked         [0m
+syslog.service                             [0;1;32menabled        [0m
+system-update-cleanup.service              static         
+systemd-ask-password-console.service       static         
+systemd-ask-password-plymouth.service      static         
+systemd-ask-password-wall.service          static         
+systemd-backlight@.service                 static         
+systemd-binfmt.service                     static         
+systemd-exit.service                       static         
+systemd-fsck-root.service                  enabled-runtime
+systemd-fsck@.service                      static         
+systemd-fsckd.service                      static         
+systemd-halt.service                       static         
+systemd-hibernate-resume@.service          static         
+systemd-hibernate.service                  static         
+systemd-hostnamed.service                  static         
+systemd-hwdb-update.service                static         
+systemd-hybrid-sleep.service               static         
+systemd-initctl.service                    static         
+systemd-journal-flush.service              static         
+systemd-journald.service                   static         
+systemd-kexec.service                      static         
+systemd-localed.service                    static         
+systemd-logind.service                     static         
+systemd-machine-id-commit.service          static         
+systemd-modules-load.service               static         
+systemd-networkd-wait-online.service       [0;1;31mdisabled       [0m
+systemd-networkd.service                   [0;1;31mdisabled       [0m
+systemd-poweroff.service                   static         
+systemd-quotacheck.service                 static         
+systemd-random-seed.service                static         
+systemd-reboot.service                     static         
+systemd-remount-fs.service                 static         
+systemd-resolved.service                   [0;1;32menabled        [0m
+systemd-rfkill.service                     static         
+systemd-suspend-then-hibernate.service     static         
+systemd-suspend.service                    static         
+systemd-sysctl.service                     static         
+systemd-timedated.service                  static         
+systemd-timesyncd.service                  [0;1;32menabled        [0m
+systemd-tmpfiles-clean.service             static         
+systemd-tmpfiles-setup-dev.service         static         
+systemd-tmpfiles-setup.service             static         
+systemd-udev-settle.service                static         
+systemd-udev-trigger.service               static         
+systemd-udevd.service                      static         
+systemd-update-utmp-runlevel.service       static         
+systemd-update-utmp.service                static         
+systemd-user-sessions.service              static         
+systemd-volatile-root.service              static         
+thermald.service                           [0;1;31mmasked         [0m
+udev.service                               static         
+udisks2.service                            [0;1;32menabled        [0m
+ufw.service                                [0;1;32menabled        [0m
+umountfs.service                           [0;1;31mmasked         [0m
+umountnfs.service                          [0;1;31mmasked         [0m
+umountroot.service                         [0;1;31mmasked         [0m
+unattended-upgrades.service                [0;1;32menabled        [0m
+upower.service                             [0;1;31mdisabled       [0m
+urandom.service                            static         
+ureadahead-stop.service                    static         
+ureadahead.service                         [0;1;32menabled        [0m
+usb_modeswitch@.service                    static         
+usbmuxd.service                            static         
+user@.service                              static         
+uuidd.service                              indirect       
+vboxautostart-service.service              [0;1;32menabled        [0m
+vboxballoonctrl-service.service            [0;1;32menabled        [0m
+vboxdrv.service                            [0;1;32menabled        [0m
+vboxweb-service.service                    [0;1;32menabled        [0m
+wacom-inputattach@.service                 static         
+whoopsie.service                           [0;1;31mdisabled       [0m
+wpa_supplicant-wired@.service              [0;1;31mdisabled       [0m
+wpa_supplicant.service                     [0;1;32menabled        [0m
+wpa_supplicant@.service                    [0;1;31mdisabled       [0m
+[0;4mx11-common.service                         [0;1;4;31mmasked         [0m
+machine.slice                              static         
+system.slice                               static         
+user-1000.slice                            transient      
+user-121.slice                             transient      
+[0;4muser.slice                                 static         [0m
+acpid.socket                               [0;1;32menabled        [0m
+apport-forward.socket                      [0;1;32menabled        [0m
+avahi-daemon.socket                        [0;1;32menabled        [0m
+cups.socket                                [0;1;32menabled        [0m
+dbus.socket                                static         
+docker.socket                              [0;1;32menabled        [0m
+saned.socket                               [0;1;31mdisabled       [0m
+snapd.socket                               [0;1;32menabled        [0m
+ssh.socket                                 [0;1;31mdisabled       [0m
+syslog.socket                              static         
+systemd-fsckd.socket                       static         
+systemd-initctl.socket                     static         
+systemd-journald-audit.socket              static         
+systemd-journald-dev-log.socket            static         
+systemd-journald.socket                    static         
+systemd-networkd.socket                    [0;1;31mdisabled       [0m
+systemd-rfkill.socket                      static         
+systemd-udevd-control.socket               static         
+systemd-udevd-kernel.socket                static         
+[0;4muuidd.socket                               [0;1;4;32menabled        [0m
+[0;4mswapfile.swap                              generated      [0m
+basic.target                               static         
+bluetooth.target                           static         
+cryptsetup-pre.target                      static         
+cryptsetup.target                          static         
+ctrl-alt-del.target                        [0;1;31mdisabled       [0m
+default.target                             static         
+emergency.target                           static         
+exit.target                                [0;1;31mdisabled       [0m
+final.target                               static         
+friendly-recovery.target                   static         
+getty-pre.target                           static         
+getty.target                               static         
+graphical.target                           static         
+halt.target                                [0;1;31mdisabled       [0m
+hibernate.target                           static         
+hybrid-sleep.target                        static         
+initrd-fs.target                           static         
+initrd-root-device.target                  static         
+initrd-root-fs.target                      static         
+initrd-switch-root.target                  static         
+initrd.target                              static         
+kexec.target                               [0;1;31mdisabled       [0m
+local-fs-pre.target                        static         
+local-fs.target                            static         
+multi-user.target                          static         
+network-online.target                      static         
+network-pre.target                         static         
+network.target                             static         
+nss-lookup.target                          static         
+nss-user-lookup.target                     static         
+paths.target                               static         
+poweroff.target                            [0;1;31mdisabled       [0m
+printer.target                             static         
+reboot.target                              [0;1;31mdisabled       [0m
+remote-cryptsetup.target                   [0;1;31mdisabled       [0m
+remote-fs-pre.target                       static         
+remote-fs.target                           [0;1;32menabled        [0m
+rescue.target                              static         
+rpcbind.target                             static         
+runlevel0.target                           [0;1;31mdisabled       [0m
+runlevel1.target                           static         
+runlevel2.target                           static         
+runlevel3.target                           static         
+runlevel4.target                           static         
+runlevel5.target                           static         
+runlevel6.target                           [0;1;31mdisabled       [0m
+shutdown.target                            static         
+sigpwr.target                              static         
+sleep.target                               static         
+slices.target                              static         
+smartcard.target                           static         
+sockets.target                             static         
+sound.target                               static         
+spice-vdagentd.target                      static         
+suspend-then-hibernate.target              static         
+suspend.target                             static         
+swap.target                                static         
+sysinit.target                             static         
+system-update.target                       static         
+time-sync.target                           static         
+timers.target                              static         
+[0;4mumount.target                              static         [0m
+anacron.timer                              [0;1;32menabled        [0m
+apt-daily-upgrade.timer                    [0;1;32menabled        [0m
+apt-daily.timer                            [0;1;32menabled        [0m
+fstrim.timer                               [0;1;32menabled        [0m
+motd-news.timer                            [0;1;32menabled        [0m
+snapd.snap-repair.timer                    [0;1;32menabled        [0m
+systemd-tmpfiles-clean.timer               static         
+ureadahead-stop.timer                      static         
+
+357 unit files listed.
