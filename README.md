@@ -54,22 +54,6 @@ initrd：（https://en.wikipedia.org/wiki/Initrd）
 
 的文件系统尚未被挂载。
 
-制作vmlinux：
-
-依赖：make（待补充）
-
-制作initrd：
-
-依赖：busybox（https://en.wikipedia.org/wiki/GNU_Core_Utilities）
-
-
-
-到这里，内核已经可以运行了，ef->grub->vmlinux
-
-测试环境：qemu虚拟机 （https://en.wikipedia.org/wiki/QEMU）
-
-
-
 
 
 5、systemd
@@ -86,95 +70,11 @@ linux内核初始化完成以后，所有的硬件都已经就绪，程序需要
 
 
 
-6、drivers
 
 
 
-7、modules
 
 
 
-8、xserver
 
-在操作系统原理中，会把操作系统功能分为五大部分，分别为：进程管理，内存管理
-
-，网络管理，存储管理，设备管理
-
-MM(内存管理)
-
-内存管理部分，主要阐述linux的内存管理的机制
-
-
-
-
-
-
-
-
-
-在阅读源码的时候参考了很多资料
-
-参考部分如下：
-
-https://github.com/torvalds/linux        	      					源码树
-
-https://github.com/MintCN/linux-insides-zh 					Linux内核揭秘
-
-https://wiki.archlinux.org/index.php/GRUB					Archwiki写的逆天的好
-
-https://blog.csdn.net/qq_28629687/article/details/82887477 	自己的博客对UEFI的一些总结
-
-https://blog.csdn.net/qq_28629687/article/details/82894307     图解UEFI部分画了两个小时
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-人生最大的理想，莫过于参与Kernel开发了！
 
